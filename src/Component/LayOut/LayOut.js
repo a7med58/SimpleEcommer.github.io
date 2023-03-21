@@ -7,9 +7,7 @@ const LayOut = () => {
   return (
     <Fragment>
       <NavBars />
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
       <Footer />
     </Fragment>
   );

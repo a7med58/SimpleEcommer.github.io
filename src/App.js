@@ -20,6 +20,7 @@ import ViewPosts from "./Page/UserPanel/ViewProducts";
 const routes = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<LayOut />}>
+      <Route index path="/" element={<Home />} />
       <Route index path="/home" element={<Home />} />
       <Route path="/login" element={<Login />} />
       <Route path="/registration" element={<RegistrationForm />} />
