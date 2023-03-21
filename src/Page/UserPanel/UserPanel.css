@@ -1,0 +1,9 @@
+.user-panel svg {
+  color: aqua;
+  padding: 20px;
+}
+.user-panel a {
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}

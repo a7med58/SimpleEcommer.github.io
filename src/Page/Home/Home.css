@@ -1,0 +1,112 @@
+header {
+  margin-top: 0px !important;
+  background-color: var(--master-color);
+}
+header .row {
+  margin: 50px 0;
+}
+header .row h2 {
+  color: var(--main-color);
+  font-size: 50px;
+  margin: 10px 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+header .row h5 {
+  color: var(--btn-color);
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+}
+header .row button {
+  background-color: var(--seconde-color);
+  width: 180px;
+  height: 40px;
+  border: 1px solid var(--seconde-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.2s ease;
+}
+header .row button:hover {
+  opacity: 0.6;
+}
+header button a {
+  color: var(--black-color);
+  font-size: 15px;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+header button a:hover {
+  color: #fff;
+}
+header img {
+  width: 650px;
+  max-width: 100%;
+  height: auto;
+  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  -o-animation: mover 1s infinite alternate;
+  -moz-animation: mover 1s infinite alternate;
+  transition: 0.3s ease all;
+}
+header .header-box {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-o-keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@-moz-keyframes mover {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+.hoicon2 {
+  margin: 2px;
+  font-size: 25px;
+  color: var(--main-color);
+  position: absolute;
+  left: 0%;
+  top: 20%;
+  animation: mover 1s infinite alternate;
+  -webkit-animation: mover 1s infinite alternate;
+  -o-animation: mover 1s infinite alternate;
+  -moz-animation: mover 1s infinite alternate;
+}
+
+.hoicon {
+  margin: 2px;
+  font-size: 25px;
+  color: var(--main-color);
+  position: relative !important;
+  left: 0px;
+  top: 0px;
+  animation: none;
+  transform: none !important;
+}

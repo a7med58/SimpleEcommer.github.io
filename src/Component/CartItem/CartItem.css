@@ -1,0 +1,16 @@
+.box-cart {
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: var(--footerp-color) !important;
+  display: block;
+}
+.box-cart svg {
+  color: var(--btn-color);
+  margin-left:  280px;
+  margin-top: -50px;
+}
+.box-cart span {
+  font-weight: bold;
+}

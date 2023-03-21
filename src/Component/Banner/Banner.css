@@ -1,0 +1,40 @@
+.banner {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 0px;
+  background-color: #f2f2f2;
+}
+.banner h2 {
+  font-size: 60px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: black;
+  line-height: 120px;
+}
+.banner li {
+  background-color: var(--footerp-color);
+  border: 1px solid var(--footerp-color);
+  text-align: center;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-right: 4px;
+  width: 200px;
+  height: 40px;
+  line-height: 50%;
+  margin: 50px auto;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+.banner li a {
+  color: black;
+  margin: 0px 10px;
+  font-weight: bold;
+}
+.banner li a svg {
+  margin-right: 10px;
+}

@@ -1,0 +1,112 @@
+.box-store {
+  max-width: 600px;
+  margin: 25px auto;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: var(--footerp-color) !important;
+}
+.h3-viewposts {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  line-height: 50px;
+}
+.h2-viewposts {
+  font-size: 60px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: black;
+  line-height: 80px;
+  text-align: center;
+}
+.icon-viewposts {
+  justify-content: center;
+}
+.viewposts svg {
+  color: var(--btn-color);
+  padding: 20px;
+  margin-right: 80px;
+  display: inline-block;
+}
+.viewposts a {
+  color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+.viewposts li {
+  display: inline-block;
+  padding: 5px;
+}
+.pagination {
+  justify-content: center;
+  margin: 5px 0px;
+}
+.pagination h4 {
+  margin-right: 5px;
+  font-weight: bold;
+  color: black;
+  padding: 5px;
+}
+button {
+  color: var(--footerbg-color);
+  padding: 10px;
+  display: inline-block;
+  border: 1px solid blue;
+  margin-right: 5px;
+  border-radius: 50px;
+  background-color: var(--footerp-color);
+  font-weight: bold;
+   transform:
+    perspective(800px)
+    rotateY(25deg) scale(0.9)
+    rotateX(10deg);
+  filter: blur(1px);
+  opacity: 1;
+  transition: 0.6s ease all;
+}
+button:hover {
+    transform:
+      perspective(800px)
+      rotateY(-15deg)
+      translateY(-10px)
+      rotateX(2deg)
+      scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+
+.h2-count-posts {
+  font-size: 40px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: black;
+  line-height: 80px;
+  text-align: center;
+}
+.count-posts {
+  color: var(--footerbg-color);
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid blue;
+  border-radius: 25px;
+  background-color: var(--footerp-color);
+  font-weight: bold;
+  margin-left: 15px;
+  transform:
+    rotateX(51deg)
+    rotateZ(43deg);
+  transform-style: preserve-3d;
+  border-radius: 32px;
+  box-shadow:
+    1px 1px 0 1px blue,
+    -1px 0 28px 0 rgba(34, 33, 81, 0.01),
+    28px 28px 28px 0 rgba(34, 33, 81, 0.25);
+  transition:
+    .4s ease-in-out transform,
+    .4s ease-in-out box-shadow;
+
+
+
+}

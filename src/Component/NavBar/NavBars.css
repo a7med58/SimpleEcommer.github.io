@@ -1,0 +1,110 @@
+nav {
+  background-color: var(--master-color);
+  width: 100%;
+  height: auto;
+  border-radius: 0px !important;
+  margin: 0px 0px;
+}
+
+nav .navbar-nav {
+  padding-top: 0px;
+}
+nav .navbar-nav a {
+  color: var (--main-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: 10px;
+  padding: 5px 5px;
+  font-size: 17px;
+}
+nav .navbar-nav a:hover,
+nav .navbar-nav a:focus {
+  color: var(--main-color) !important;
+}
+nav .navbar-nav .active {
+  color: var(--seconde-color) !important;
+}
+nav .navbar-nav button {
+  background-color: var(--btn-color) !important;
+  border: 1px solid var(--btn-color);
+  width: 200px;
+  height: 50px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: -10px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  transition: 0.3s ease-in-out;
+}
+nav .navbar-nav button:hover {
+  background-color: blue;
+  border: 1px solid blue;
+}
+nav .navbar-nav button a {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+nav .navbar-nav button span {
+  background-color: var(--white-color);
+  color: var(--btn-color) !important;
+  width: 40px;
+  border-radius: 4px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.navbar-nav .dropdown-menu {
+  position: static;
+  background-color: var(--white-color);
+  border: 1px solid var(--white-color);
+  border-radius: 0px;
+  width: 200px;
+}
+.navbar-nav .dropdown-menu li {
+  width: 100px;
+  height: 30px !important;
+  position: relative;
+}
+.navbar-nav .dropdown-menu a {
+  position: relative;
+  line-height: 30px !important;
+  font-size: 14px;
+  color: #444;
+}
+.navbar-nav .dropdown-menu a:hover {
+  color: var(--main-color);
+}
+
+[type="button"]:not(:disabled) {
+  background-color: var(--main-color);
+  position: relative;
+  cursor: pointer;
+  border: 1px solid var(--main-color);
+  border-radius: 5;
+  margin-left: 75%;
+  margin-top: -60px;
+}
+nav svg {
+  margin: 2px;
+  font-size: 25px;
+  color: var(--seconde-color);
+  position: relative;
+}
+.nav-link-m {
+  color: black;
+  font-weight: bold;
+}
+.cart {
+  background: blue;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.cart:hover {
+  color: var(--seconde-color);
+}

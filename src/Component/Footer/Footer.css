@@ -1,0 +1,81 @@
+footer {
+  background-color: var(--footerbg-color);
+}
+.footer-text-master {
+  height: 70%;
+}
+
+footer img.flogo {
+  width: auto;
+  height: 50px;
+  margin: 15px 0;
+}
+footer p,
+a {
+  color: var(--white-color);
+}
+footer p {
+  font-size: 17px;
+}
+footer .footer-contact {
+  display: flex;
+}
+
+footer .footer-contact .footer-icon {
+  margin-right: 20px;
+}
+footer .footer-contact .footer-icon svg {
+  color: var(--white-color);
+  background-color: var(--footerp-color);
+  width: 60px;
+  height: 60px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+footer .footer-contact h4 {
+  color: var(--footerp-color);
+  margin-bottom: 7px;
+}
+footer .footer-contact h6 {
+  color: var(--footerp-color);
+  margin-bottom: 7px;
+  font-weight: bolder;
+}
+footer h2 {
+  color: var(--footerp-color);
+  margin-bottom: 7px;
+  font-weight: bolder;
+}
+
+.form-footer {
+  margin: 15px 0;
+  background-color: black !important;
+}
+footer form input {
+  border: 1px solid #fff;
+  margin: 10px 0;
+  width: 100%;
+}
+#btnfooter {
+  width: 100%;
+  background-color: var(--footerp-color);
+  border: 1px solid var(--footerp-color);
+  color: #fff;
+  font-weight: bold;
+}
+footer .social svg {
+  margin-right: 5px;
+  display: inline-flex;
+}
+footer .footer-buttom {
+  text-align: center;
+  margin-top: 25px;
+  padding: 15px 0;
+  color: var(--footerp-color);
+  font-weight: bolder;
+  border-top: 1px solid var(--footerp-color);
+}
+footer .footer-buttom span {
+  display: block;
+  margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+.about {
+  background: var(--footerp-color);
+}
+.about h3 {
+  text-align: left;
+  display: inline-block;
+  font-size: 90px;
+  font-weight: bolder;
+}
+.about p {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.side-about {
+  background: var(--footerp-color);
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 4px;
+  margin-top: 0px;
+}

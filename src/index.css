@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: "Tajawal", sans-serif;
+  background-color: var(--white-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #1f2278;
+  --seconde-color: #f17732;
+  --btn-color: #565acf;
+  --white-color: #fff;
+  --master-color: #fff6eb;
+  --black-color: black;
+  --footerbg-color: #010101;
+  --footerp-color: #ffda30;
+}
+
+section,
+footer,
+header {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 25px 0;
+  margin-top: 0px;
+}
+a {
+  text-decoration: none !important;
+}
+span {
+  display: block;
+}
+p {
+  line-height: 28px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+img {
+  max-width: 25%;
+}
+button {
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+  font-family: "Tajawal", sans-serif;
+}
+
+.btn-cat {
+  background:#666ed8;
+  padding:20px 25px;
+  border:none;
+  font-size:22px;
+  border-radius:6px;
+  cursor:pointer;
+  color:white;
+  font-weight:bold;
+  transition:0.3s ease all;
+  box-shadow:1px 2px 3px rgba(0,0,0,0.3);
+ 
+}
