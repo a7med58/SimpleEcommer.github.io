@@ -2,6 +2,7 @@ import {
   faArrowLeft,
   faCartFlatbed,
   faMobileAlt,
+  faPersonFalling,
   faSearch,
   faSignInAlt,
   faSignOutAlt,
@@ -61,6 +62,9 @@ const NavBars = () => {
                 <Link>
                   <FontAwesomeIcon icon={faCartFlatbed} onClick={openCart} />{" "}
                   <div className="cart"> {cartQuantity} </div>
+                </Link>
+                <Link to="/profile">
+                  <FontAwesomeIcon icon={faPersonFalling} />
                 </Link>
               </React.Fragment>
             ) : (

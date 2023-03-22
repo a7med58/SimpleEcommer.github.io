@@ -11,6 +11,7 @@ import Store from "./Component/Store/Store";
 import About from "./Page/About/About";
 import Home from "./Page/Home/Home";
 import Login from "./Page/Login/Login";
+import Profile from "./Page/Profile/Profile";
 import RegistrationForm from "./Page/Registration/RegistrationForm";
 import AddPost from "./Page/UserPanel/AddProduct";
 import UserPanel from "./Page/UserPanel/UserPanel";
@@ -23,6 +24,7 @@ const routes = createBrowserRouter(
       <Route index path="/" element={<Home />} />
       <Route index path="/home" element={<Home />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/profile" element={<Profile />} />
       <Route path="/registration" element={<RegistrationForm />} />
       <Route path="/userpanel" element={<UserPanel />} />
       <Route path="/about" element={<About />} />
