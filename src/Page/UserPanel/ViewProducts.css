@@ -49,33 +49,7 @@
   color: black;
   padding: 5px;
 }
-button {
-  color: var(--footerbg-color);
-  padding: 10px;
-  display: inline-block;
-  border: 1px solid blue;
-  margin-right: 5px;
-  border-radius: 50px;
-  background-color: var(--footerp-color);
-  font-weight: bold;
-   transform:
-    perspective(800px)
-    rotateY(25deg) scale(0.9)
-    rotateX(10deg);
-  filter: blur(1px);
-  opacity: 1;
-  transition: 0.6s ease all;
-}
-button:hover {
-    transform:
-      perspective(800px)
-      rotateY(-15deg)
-      translateY(-10px)
-      rotateX(2deg)
-      scale(1);
-    filter: blur(0);
-    opacity: 1;
-  }
+
 
 .h2-count-posts {
   font-size: 40px;

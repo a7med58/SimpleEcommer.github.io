@@ -15,7 +15,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import logo from "../../Assets/Eagle.png";
+import logo from "../../Assets/Header-Logo.png";
 import { useShoppingCar } from "../Context/ShopincartComp";
 import "./NavBars.css";
 
@@ -84,7 +84,7 @@ const NavBars = () => {
               <FontAwesomeIcon icon={faMobileAlt} />
             </Nav.Link>
             <Nav.Link>
-              <button id="btnheader">
+              <button className="btnheader">
                 Contact Us
                 <FontAwesomeIcon icon={faArrowLeft} />
               </button>

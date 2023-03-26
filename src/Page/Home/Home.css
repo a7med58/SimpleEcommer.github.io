@@ -3,7 +3,7 @@ header {
   background-color: var(--master-color);
 }
 header .row {
-  margin: 50px 0;
+  margin-top: 2px;
 }
 header .row h2 {
   color: var(--main-color);
@@ -40,19 +40,13 @@ header button a:hover {
   color: #fff;
 }
 header img {
-  width: 650px;
-  max-width: 100%;
+  width: 600px;
+  max-width: 90%;
   height: auto;
-  animation: mover 1s infinite alternate;
-  -webkit-animation: mover 1s infinite alternate;
-  -o-animation: mover 1s infinite alternate;
-  -moz-animation: mover 1s infinite alternate;
-  transition: 0.3s ease all;
 }
 header .header-box {
   position: relative;
   max-width: 100%;
-  height: auto;
 }
 
 @keyframes mover {
@@ -109,4 +103,13 @@ header .header-box {
   top: 0px;
   animation: none;
   transform: none !important;
+}
+.svg-home {
+  margin-left: 120px;
+  padding: 10px;
+  color: #d864a9;
+}
+.pop-mssg {
+  color:  var(--seconde-color);
+  font-weight: bolder;
 }
