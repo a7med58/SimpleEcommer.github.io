@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhoneFlip } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import flogo from "../../Assets/Eagle.png";
+import flogo from "../../Assets/Footer-Logo.png";
 import "./Footer.css";
 
 const Footer = () => {
@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-3 col-sm-6">
             <img src={flogo} alt="logo" className="flogo" />
-            <p>Eagel Store For Egyption Products</p>
+            <p>Brandnera Store For Egyption Products</p>
             <div className="footer-contact">
               <div className="footer-icon">
                 <FontAwesomeIcon icon={faPhoneFlip} />

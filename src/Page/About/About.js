@@ -10,7 +10,7 @@ const About = () => {
           <div className="row-about">
             <div className="col-lg-12 col-md-12">
               <div className="side-about">
-                <h3>Eagle </h3>
+                <h3>Brandnera </h3>
                 <p className="text-one">
                   Was formed in October 2019 as a result of the merger between 3
                   independent and successful marketing and technology companies,

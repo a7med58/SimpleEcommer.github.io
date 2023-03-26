@@ -15,8 +15,9 @@ footer p,
 a {
   color: var(--white-color);
 }
-footer p {
-  font-size: 17px;
+footer p , a {
+  font-size: 10px;
+  font-weight: bold;
 }
 footer .footer-contact {
   display: flex;

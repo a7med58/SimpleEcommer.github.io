@@ -3,7 +3,15 @@ import "./Caro.css";
 import products from "../../Data/Products";
 
 const CarouselView = () => {
-  const carouselView = products.map((item) => {
+  // Sort products by date added, assuming there is a 'dateAdded' field in each product object
+  const sortedProducts = products.sort(
+    (a, b) => new Date(b.dateAdded) - new Date(a.dateAdded)
+  );
+
+  // Only display the last 5 products
+  const lastProducts = sortedProducts.slice(0, 5);
+
+  const carouselView = lastProducts.map((item) => {
     return (
       <Carousel.Item>
         <img src={item.imgURL} alt="IMG" />
