@@ -1,5 +1,6 @@
 footer {
   background-color: var(--footerbg-color);
+  margin-top: 0px;
 }
 .footer-text-master {
   height: 70%;
