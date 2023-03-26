@@ -19,8 +19,8 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6 col-lg-6">
-            <h2> Eagle Stor</h2>
-            <h5>Welcome In Eagel Store For Egyption Products</h5>
+            <h2> Brandnera Store</h2>
+            <h5>Welcome In Brandnera Store For Egyption Products</h5>
             <FontAwesomeIcon
               icon={faHandsBound}
               className="svg-home"
