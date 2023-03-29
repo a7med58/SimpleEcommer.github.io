@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import { useShoppingCar } from "../../Component/Context/ShopincartComp";
 import FormatCurr from "../../Component/Store/FormatCurr";
 import "./Product.css";
@@ -19,7 +20,11 @@ const Product = ({ id, name, price, imgURL }) => {
   return (
     <section className="product-view">
       <div className="card ">
-        <img src={imgURL} className="img-product" alt="product" />
+        <div className="img-product">
+          <Link to={`/product/${id}`}>
+            <img src={imgURL} alt="product" />
+          </Link>
+        </div>
         <div className="card-title">
           <span>{name}</span>
         </div>

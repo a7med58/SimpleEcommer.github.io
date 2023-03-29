@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Stack } from "react-bootstrap";
 import products from "../../Data/Products";
+
 import { useShoppingCar } from "../Context/ShopincartComp";
 import FormatCurr from "../Store/FormatCurr";
 import "./CartItem.css";

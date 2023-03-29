@@ -1,5 +1,4 @@
-import { useEffect, useState, useRef } from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
 import ProductsData from "../../Data/Products";
 import Login from "../../Page/Login/Login";
 import Product from "../../Page/UserPanel/Product";
@@ -97,9 +96,7 @@ const Store = () => {
           {authenticated ? (
             filteredProducts.map((product) => (
               <div className="col-md-4 col-sm-6 mb-4" key={product.id}>
-                <Link to={`/product/${product.id}`}>
-                  <Product {...product} />
-                </Link>
+                <Product {...product} />
               </div>
             ))
           ) : (
