@@ -3,7 +3,6 @@ import {
   faCartFlatbed,
   faMobileAlt,
   faPersonFalling,
-  faSearch,
   faSignInAlt,
   faSignOutAlt,
   faStore,
@@ -22,6 +21,7 @@ import "./NavBars.css";
 const NavBars = () => {
   const { openCart, cartQuantity } = useShoppingCar();
   const [authenticated, setAuthenticated] = useState(false);
+
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
@@ -77,9 +77,7 @@ const NavBars = () => {
                 </Link>
               </React.Fragment>
             )}
-            <Nav.Link>
-              <FontAwesomeIcon icon={faSearch} />
-            </Nav.Link>
+
             <Nav.Link>
               <FontAwesomeIcon icon={faMobileAlt} />
             </Nav.Link>

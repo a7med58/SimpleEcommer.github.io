@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
-import "./Caro.css";
 import products from "../../Data/Products";
+import "./Caro.css";
 
 const CarouselView = () => {
   // Sort products by date added, assuming there is a 'dateAdded' field in each product object

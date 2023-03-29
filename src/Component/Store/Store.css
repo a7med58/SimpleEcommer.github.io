@@ -1,0 +1,22 @@
+.searchproduct {
+  margin-top: 5px;
+}
+
+.searchproduct input {
+  border: 2px solid blue;
+}
+
+.searchproduct button {
+  background-color: var(--btn-color) !important;
+  border: 1px solid var(--btn-color);
+  width: 60px;
+  height: 40px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 8x;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s ease-in-out;
+}

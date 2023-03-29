@@ -1,12 +1,14 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import ProductsData from "../../Data/Products";
 import Login from "../../Page/Login/Login";
 import Product from "../../Page/UserPanel/Product";
 import Banner from "../Banner/Banner";
-
+import "./Store.css"
 const Store = () => {
   const [authenticated, setAuthenticated] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("all");
+  const [searchTerm, setSearchTerm] = useState("");
+  const searchInputRef = useRef(null);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -24,6 +26,18 @@ const Store = () => {
     selectedCategory === "all"
       ? ProductsData
       : ProductsData.filter((product) => product.category === selectedCategory);
+
+  const filteredProducts =
+    searchTerm === ""
+      ? productsToDisplay
+      : productsToDisplay.filter((product) =>
+          product.name.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    setSearchTerm(searchInputRef.current.value);
+  };
 
   return (
     <>
@@ -47,9 +61,17 @@ const Store = () => {
                 </button>
               ))}
             </div>
+            <form className="searchproduct" onSubmit={handleSearch}>
+              <input
+                type="text"
+                placeholder="Product Name"
+                ref={searchInputRef}
+              />
+              <button type="submit">Search</button>
+            </form>
           </div>
           {authenticated ? (
-            productsToDisplay.map((product) => (
+            filteredProducts.map((product) => (
               <div className="col-md-4 col-sm-6 mb-4" key={product.id}>
                 <Product {...product} />
               </div>
