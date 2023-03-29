@@ -26,16 +26,22 @@
   margin-left: 225px;
   background-color: transparent;
 }
-
-.card span:first-child {
+.card-title {
+  display: flex;
+}
+.card span {
   font-size: 18px;
   font-weight: bold;
   color: blue;
-}
+    margin: 5px 5px;
 
-.card span:last-child {
-  font-size: 16px;
+}
+.card p {
+  font-size: 18px;
+  font-weight: bold;
   color: blue;
+    margin: 5px 5px;
+
 }
 .add {
   margin: 10px 50px;

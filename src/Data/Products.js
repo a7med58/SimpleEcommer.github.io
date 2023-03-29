@@ -8,7 +8,7 @@ import image6 from "../Assets/Product/6.png";
 const products = [
   {
     id: 1,
-    name: "Laptop HP",
+    name: "HP",
     price: 7800,
     imgURL: image1,
     category: "Laptop",
@@ -16,7 +16,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Mobile Realme",
+    name: "Realme",
     price: 2850,
     imgURL: image2,
     category: "Mobile",
@@ -31,7 +31,7 @@ const products = [
   },
   {
     id: 4,
-    name: "Laptop Acer",
+    name: "Acer",
     price: 5500,
     imgURL: image4,
     category: "Laptop",
@@ -46,7 +46,7 @@ const products = [
   },
   {
     id: 6,
-    name: "Laptop Asus",
+    name: "Asus",
     price: 7000,
     imgURL: image6,
     category: "Laptop",
@@ -55,7 +55,7 @@ const products = [
   
   {
     id: 7,
-    name: "Laptop HP",
+    name: "HP",
     price: 8000,
     imgURL: image1,
     category: "Laptop",
@@ -63,14 +63,14 @@ const products = [
   },
   {
     id: 8,
-    name: "Mobile Realme",
+    name: "Realme",
     price: 3450,
     imgURL: image2,
     category: "Mobile",
   },
   {
     id: 9,
-    name: "Laptop Dell",
+    name: "Dell",
     price: 8500,
     imgURL: image3,
     category: "Laptop",
@@ -78,7 +78,7 @@ const products = [
   },
   {
     id: 10,
-    name: "Laptop Acer",
+    name: "Acer",
     price: 9000,
     imgURL: image4,
     category: "Laptop",
@@ -93,7 +93,7 @@ const products = [
   },
   {
     id: 12,
-    name: "Laptop Asus",
+    name: "Asus",
     price: 9500,
     imgURL: image6,
     category: "Laptop",

@@ -11,7 +11,7 @@ import { useShoppingCar } from "../../Component/Context/ShopincartComp";
 import FormatCurr from "../../Component/Store/FormatCurr";
 import "./Product.css";
 
-const Product = ({ id, name, price, imgURL }) => {
+const Product = ({ id, name, price, imgURL, category }) => {
   const { getItemQuantity } = useShoppingCar();
   const { increaseCartQuantity, decreaseCartQuantity, removeCartQuantity } =
     useShoppingCar();
@@ -26,7 +26,14 @@ const Product = ({ id, name, price, imgURL }) => {
           </Link>
         </div>
         <div className="card-title">
-          <span>{name}</span>
+          <div>
+            <p> Category  </p>
+            <span>{category}</span>
+          </div>
+          <div>
+            <p> Brand </p>
+            <span>{name}</span>
+          </div>
         </div>
         <div className="card-span">
           <span>{FormatCurr(price)}</span>
