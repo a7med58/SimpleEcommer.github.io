@@ -7,6 +7,7 @@ import {
 import "./App.css";
 import ShoppingCartProvider from "./Component/Context/ShopincartComp";
 import LayOut from "./Component/LayOut/LayOut";
+import ProductDetails from "./Component/ProductDetails/ProductDetails";
 import Store from "./Component/Store/Store";
 import About from "./Page/About/About";
 import Home from "./Page/Home/Home";
@@ -30,7 +31,7 @@ const routes = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/addpost" element={<AddPost />} />
       <Route path="/viewposts" element={<ViewPosts />} />
-      <Route path="/posts/:id" element={<ViewPost />} />
+      <Route path="/product/:id" element={<ProductDetails/>} />
       <Route path="/posts/:id/edit" element={<ViewPost />} />
       <Route path="/store" element={<Store />} />
     </Route>

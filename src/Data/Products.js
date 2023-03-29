@@ -12,6 +12,7 @@ const products = [
     price: 1500,
     imgURL: image1,
     category: "Laptop",
+    description: "Spexs Ram 8 GB Processor I5 G10",
   },
   {
     id: 2,
@@ -26,6 +27,7 @@ const products = [
     price: 1500,
     imgURL: image3,
     category: "Laptop",
+    description: "Spexs Ram 8 GB Processor I5 G10",
   },
   {
     id: 4,
@@ -33,6 +35,7 @@ const products = [
     price: 1500,
     imgURL: image4,
     category: "Laptop",
+    description: "Spexs Ram 8 GB Processor I5 G10",
   },
   {
     id: 5,
@@ -47,6 +50,7 @@ const products = [
     price: 1500,
     imgURL: image6,
     category: "Laptop",
+    description: "Spexs Ram 8 GB Processor I5 G10",
   },
 ];
 

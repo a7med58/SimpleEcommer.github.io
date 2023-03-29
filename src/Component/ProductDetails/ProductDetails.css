@@ -1,0 +1,34 @@
+.box-cart-detal {
+  margin: 25px 25px;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: var(--footerp-color) !important;
+}
+.box-cart-detal-all {
+  display: flex;
+}
+.box-cart-detal-all label {
+  font-weight: bolder;
+  margin: 5px;
+}
+
+.box-cart-detal-all span,
+h2,
+p {
+  font-weight: 300;
+  display: inline;
+}
+
+.box-cart-detal label {
+  font-weight: bolder;
+  margin: 5px;
+}
+.box-cart-detal-all2{
+    margin: 25px 25px
+}
+.lab {
+  font-weight: bolder;
+  margin: 5px;
+  display: inline;
+}
