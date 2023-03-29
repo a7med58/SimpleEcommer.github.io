@@ -4,6 +4,8 @@
 
 .searchproduct input {
   border: 2px solid blue;
+  color: black;
+  font-weight: bold;
 }
 
 .searchproduct button {

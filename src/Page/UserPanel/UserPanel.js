@@ -21,20 +21,20 @@ function UserPanel() {
             <h1>Welcome to your user panel</h1>
             {authenticated ? (
               <div className="user-panel-icon">
-                <Link to="/addpost">
+                <Link to="/addproduct">
                   <i>
                     <FontAwesomeIcon icon={faAdd} />
                     Add Product
                   </i>
                 </Link>
 
-                <Link to="/viewposts">
+                <Link to="/viewproducts">
                   <i>
                     <FontAwesomeIcon icon={faUsersViewfinder} />
                     My Products
                   </i>
                 </Link>
-                </div>
+              </div>
             ) : null}
             {!authenticated && <p>Please log in to View Panel.</p>}
           </div>

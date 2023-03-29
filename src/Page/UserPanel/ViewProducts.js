@@ -3,15 +3,14 @@ import CartItemPage from "../../Component/CartItemPage/CartItemPage";
 import { useShoppingCar } from "../../Component/Context/ShopincartComp";
 import "./ViewProducts.css";
 
-const ViewPosts = ({ isLoggedIn }) => {
- const [authenticated, setAuthenticated] = useState(false);
- useEffect(() => {
-   const token = localStorage.getItem("token");
-   if (token) {
-     setAuthenticated(true);
-   }
- }, []);
-
+const ViewProducts = ({ isLoggedIn }) => {
+  const [authenticated, setAuthenticated] = useState(false);
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      setAuthenticated(true);
+    }
+  }, []);
 
   const { cartItems } = useShoppingCar();
 
@@ -30,4 +29,4 @@ const ViewPosts = ({ isLoggedIn }) => {
   );
 };
 
-export default ViewPosts;
+export default ViewProducts;

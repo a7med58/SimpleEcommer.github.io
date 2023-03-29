@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import "./AddProduct.css";
-const AddPost = ({ isLoggedIn }) => {
+const AddProduct = ({ isLoggedIn }) => {
   const [productname, setProductname] = useState("");
   const [specs, setSpecs] = useState("");
   const [price, setPrice] = useState("");
@@ -104,4 +104,4 @@ const AddPost = ({ isLoggedIn }) => {
   );
 };
 
-export default AddPost;
+export default AddProduct;

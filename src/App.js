@@ -14,10 +14,9 @@ import Home from "./Page/Home/Home";
 import Login from "./Page/Login/Login";
 import Profile from "./Page/Profile/Profile";
 import RegistrationForm from "./Page/Registration/RegistrationForm";
-import AddPost from "./Page/UserPanel/AddProduct";
+import AddProduct from "./Page/UserPanel/AddProduct";
 import UserPanel from "./Page/UserPanel/UserPanel";
-import ViewPost from "./Page/UserPanel/ViewProduct";
-import ViewPosts from "./Page/UserPanel/ViewProducts";
+import ViewProducts from "./Page/UserPanel/ViewProducts";
 
 const routes = createBrowserRouter(
   createRoutesFromElements(
@@ -29,10 +28,9 @@ const routes = createBrowserRouter(
       <Route path="/registration" element={<RegistrationForm />} />
       <Route path="/userpanel" element={<UserPanel />} />
       <Route path="/about" element={<About />} />
-      <Route path="/addpost" element={<AddPost />} />
-      <Route path="/viewposts" element={<ViewPosts />} />
-      <Route path="/product/:id" element={<ProductDetails/>} />
-      <Route path="/posts/:id/edit" element={<ViewPost />} />
+      <Route path="/addproduct" element={<AddProduct />} />
+      <Route path="/viewproducts" element={<ViewProducts />} />
+      <Route path="/product/:id" element={<ProductDetails />} />
       <Route path="/store" element={<Store />} />
     </Route>
   )
